@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password</title>
+    <link rel="shortcut icon" href="password.png" type="image/x-icon">
+    <link rel="stylesheet" href="rand.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Random Password Generator</h1><br>
+        <div class="logo">
+            <img src="Gnani logo s64.ico" alt="">
+        </div>
+        <form>
+            <div><h3 class="h3"><u>Login/Sign-in</u></h3></div>
+            <div class="email">
+                <p>Email:</p>
+                <div class="input-container">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Thing's go good" >
+                </div>
+            </div>
+            <div class="input-password">
+                <p>Password:</p>
+                <div class="password-container">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Protection hear">
+                    <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                </div>
+            </div><br>
+            <div class="gen">
+                <button class="auto">&#8669 Generate comp password &#8668</button>
+            </div><br>
+            <div class="signin">
+                <button class="auto">Sign-in</button>
+            </div><br>
+            <p class="para">No need to worry about changing or remembering passwords—our system generates them automatically for you!"</p>
+        </form>
+    </div>
+    <script src="rand.js"></script>
+</body>
+</html>
